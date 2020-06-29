@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Guía de Métodos Estadísticos 2020"
+author: ["Pablo Cortes", "Francisco Fernández"]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -8,15 +8,15 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+github-repo: fjfernandezj/guiame-agro 
+description: "Guía de Laboratorio para Métodos Estadísticos"
 ---
 
-# Prerequisites
+# Bienvenidos {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+La presente Guía tiene el objetivo de proporcionar a los estudiantes de **Métodos Estadísiticos (SILB 1513)** de la [**Escuela de Agronomía de la Universidad Mayor**](https://www.umayor.cl/um/carreras/agronomia-santiago/10000) una herramienta para el desarrollo de los laboratorios de la asignatura durante todo el semestre de este año. A través de esta guía tendrán acceso completo a toda la materia que veremos durante el semestre y adicionalmente podrán poner en práctica todo lo que acá veamos.
 
-The **bookdown** package can be installed from CRAN or Github:
+ 
 
 ```{r eval=FALSE}
 install.packages("bookdown")
